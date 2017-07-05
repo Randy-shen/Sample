@@ -1,0 +1,37 @@
+sftp:
+    sftp_connection_name:
+        development:
+            :host: 
+            :port: 
+            :login: 
+            :ssh_key: 
+s3:
+    s3_connection_name:
+        development:
+            :access_key_id:
+            :secret_access_key: 
+            :region: 
+            :bucket_name: 
+redshift:
+    redshift_connection_name:
+        development:
+            :host: 
+            :port: 
+            :login: 
+            :password: 
+            :database_name: 
+postgres:
+    postgres_connection_name:
+        development:
+            :host:
+            :port: 
+            :login: 
+            :password: 
+sqlserver:
+    sqlserver_connection_name:
+        development:
+            :host: 
+            :port:
+            :login: 
+            :password: 
+

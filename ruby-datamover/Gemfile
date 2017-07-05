@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in datamover.gemspec
+gemspec
+
+source 'https://gems.truecarcorp.com' do
+  gem 'buffered_s3_writer', '~> 0.3'
+end
